@@ -37,7 +37,7 @@ ReactDOM.render(<TransactionsList transactions={transactions} />, rootElement);
 //algo:
 
 //1. компонента Transaction рендерить елементи списку +++
-//2. пишемо логіку форматування дат через moments.js
+//2. пишемо логіку форматування дат через moments.js +++
 //3. пишемо логіку форматування чисел через new Intl.NumberFormat +++
 //4. через деструктуризацію приймає пропси from, to... +++
 //4. TransactionsList рендерить список з компонентою Transaction, яка містить елементи цього списку +++
